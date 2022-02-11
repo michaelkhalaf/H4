@@ -1,0 +1,133 @@
+/* strat section one in footer   */
+
+.foot
+{
+    background-color: #7370b5;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+}
+.foot h3{
+    color: #55bce9;
+    font-size: 60px;
+
+}
+.foot p{
+    color: #fff;
+}
+/* end section one  in footer  */
+
+
+
+/* start section two  in footer  */
+.contact
+{
+    text-align: left;
+    background-image: url(../media/413f0551-da4f-4bb5-8fcb-fb7c3762fdb5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    position: relative;
+}
+.contact .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    opacity: .95;
+}
+.contact .row
+
+{
+    margin-top: 70px;
+}
+
+.contact h4{
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.contact p{
+    color: #55bce9;
+}
+.contact .change
+{
+    color: #B2B2B2;
+    margin-left: 15px;
+}
+.contact input
+{
+    width: 80%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 6px 40px 6px 30px;
+}
+textarea
+{
+ 
+    width: 80%;
+    height: 100px;
+    padding: 6px 40px 6px 30px;
+}
+.contact button
+{
+    width: 35%;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.contact button:hover
+{
+    background-color: #55bce9;
+}
+
+/* end section two in footer  */
+
+/* strat section three in footer  */
+.copyright
+
+{
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+    background-color: #fff;
+
+   
+
+}
+.copyright img
+{
+    width: 100px;
+}
+.copyright a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.copyright a .hlogo
+
+{
+    font-size: 50px;
+}
+.copyright p{
+    color: #B2B2B2;
+    font-size: 20px;
+}
+.copyright .logospan
+{
+    color: #55bce9;
+}
+.copyright .logospan:hover
+{
+    color: #B2B2B2;
+}
+
+/* end section three in footer  */

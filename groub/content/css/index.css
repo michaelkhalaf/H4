@@ -1,0 +1,69 @@
+.WhyChoose{
+    height: 600px;
+    width: 100%;
+    background-color: #55bce9;
+    margin-top: 135px;
+    padding-left: 30px;
+    
+    
+}
+.picture2 img{
+    visibility: visible;
+    position: absolute;
+    z-index: 20;
+    margin-left: 900px;
+    margin-top: -135px;
+}
+.picture1 p{
+    color: white;
+    font-size: 30px;
+}
+.picture1 h5{
+    font-size: 50px;
+    padding-top: 30px;
+}
+.us1 svg{
+    font-size: 25px; 
+    color: white;
+}
+.us1{
+    background-color: blueviolet;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 18px;
+}
+.us p{
+    font-size: 20px;
+    color: black;
+}
+.us3 :hover{
+    opacity: 0.5;
+    animation-name: us;
+    animation-duration:4s;
+}
+@keyframes us{
+    0%   {opacity: 0.5; }
+    25%  {opacity: 0;  }
+    50%  {opacity: 0.5; }
+    75%  {opacity: 0; }
+    100% {opacity: 1; }
+}
+.number{
+    background-color: #7370b5;
+    text-align: center;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+}
+
+.number h4{
+    color: #55bce9;
+    font-size: 80px;
+    font-weight:700;
+    letter-spacing: -0.04em;
+}
+.number p{
+    color: white;
+    font-size: 30px;
+}

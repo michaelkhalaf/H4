@@ -1,0 +1,172 @@
+body{
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif !important;
+font-size: 16px;
+font-weight: 400;
+
+  
+}
+
+#nav{
+  position: sticky;
+}
+
+
+
+  .h1{
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -.05em;
+    line-height: 1;
+    word-break: break-word;
+  }
+ 
+  .photo img{
+    height: 562px;
+    width: 826px;
+    margin-left: 40%;
+    
+  }
+
+  .text{
+    transform:translate(268px,-401px);
+   
+  }
+   .highlight {
+    color: #55bce9;
+    border-color: #55bce9;
+    font-size: 40px;
+    margin-bottom: 15px;
+    animation-name: parg-;
+  animation-duration: 3s ;
+
+}
+@keyframes  parg-{
+from{transform: rotateZ(50deg); opacity: 0; }
+to{transform: rotateZ(0deg); opacity: 1; }
+} 
+
+.parg{
+  font-size: 80px;
+  margin-bottom: 53px;
+  color: white;
+  animation-name: m1;
+  animation-duration: 3s ;
+
+}
+@keyframes m1{
+  from{transform: rotatey(50deg); opacity: 0; }
+to{transform: rotatey(0deg); opacity: 1; }
+}
+.parg-3{
+  animation-name: parg-3;
+  animation-duration: 3s ;
+}
+@keyframes parg-3{
+  from{margin-left: -300px; opacity: 0; }
+  to{margin-left: 0px; opacity: 5; }
+}
+.icon{
+font-size: 42px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #323232;
+    color: #323232;
+    margin: 3px;
+    animation-name: parg-3;
+    animation-duration: 3s ;
+}
+.icon:hover ,.parg-5:hover{
+  background-color: #55bce9;
+}
+@keyframes parg-2{
+  from{margin-right: -300px; opacity: 0; transform: rotatex(80deg);}
+  to{margin-right: 0px; opacity: 5; transform: rotatex(0deg);}
+  }
+
+#div1 {animation-timing-function: ease;}
+#div2 {animation-timing-function: ease-in;}
+#div3 {animation-timing-function: linear;}
+#div4 {animation-timing-function: ease-out;}
+
+.parg-5{
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0px 0px 120px;
+  width: 100px;
+  border: 1px  #323232;
+  color: #323232;
+  animation-name: parg-3;
+  animation-duration: 3s ;
+background-color:#B218E6 ;
+}
+
+
+
+
+@keyframes ani {
+  0%   {height: 0px;width: 0px;opacity: 0;}
+  50%   {height: 80px;width: 80px;opacity: 0.5;}
+  90%   {height: 115px;width: 115px;opacity: 0;}
+  100% {height: 120px;width: 120px;opacity: 0.01;}
+}
+#ani{
+  background-color:  #2844DE;
+  border-radius: 50%;
+  position: fixed;
+  opacity: 0.3;
+  z-index: 90;
+  right: 120px;
+  bottom: 65px;
+  animation-name: ani;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+
+}
+.uper-div{
+  background-color: #2844DE;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 60px;
+  height: 80px;
+  position: fixed;
+  right: 120px;
+  bottom: 65px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 2px;
+  z-index: 100 
+}
+.uper-div-2{
+  background: #9b16de;
+  border-radius: 50%;
+  bottom: 55px;
+  height: 40px;
+  padding: 6px;
+  position: fixed;
+  right: 100px;
+  width: 40px;
+  z-index: 200;
+  text-align: center;
+}
+.uper-div a{
+  text-decoration: none;
+  color: #fff;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+.card{
+  height: 400px;
+}
+.n1 a{
+  margin-top: 20px;
+}
+.n2 a{
+  margin-top: -4px;
+}
